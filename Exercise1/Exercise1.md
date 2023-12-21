@@ -47,3 +47,19 @@ https://docs.aws.amazon.com/iot/latest/developerguide/iot-moisture-policy.html
 Link: https://010703111265.signin.aws.amazon.com/console
 
 
+## Summary
+
+- Device Gateway => An AWS IoT Core feature enables communication between publishers and subscribers, scales automatically, and supports the MQTT, WebSockets, and HTTP 1.1 protocols
+
+- Registry => An AWS IoT Core feature establishes an identity for devices and tracks metadata such as the devices’ attributes and capabilities
+
+aws iot attach-policy --policy-name CarPolicy --target certificateArn_changeme
+arn:aws:iot:us-east-1:010703111265:cert/d257c7c7e5beb8b0aec4b12ab71011fe6594afd3c5da0e3d462517c0ddb3ad57
+
+
+aws iot attach-policy --policy-name CarPolicy --target arn:aws:iot:us-east-1:010703111265:cert/d257c7c7e5beb8b0aec4b12ab71011fe6594afd3c5da0e3d462517c0ddb3ad57
+
+aws iot attach-thing-principal --thing-name car2 --principal certificateArn_changeme
+arn:aws:iot:us-east-1:010703111265:cert/d257c7c7e5beb8b0aec4b12ab71011fe6594afd3c5da0e3d462517c0ddb3ad57
+
+aws iot attach-thing-principal --thing-name car2 --principal arn:aws:iot:us-east-1:010703111265:cert/d257c7c7e5beb8b0aec4b12ab71011fe6594afd3c5da0e3d462517c0ddb3ad57

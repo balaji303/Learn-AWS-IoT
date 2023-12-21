@@ -47,12 +47,20 @@ It consists of
 
 ## Excersice 2.2
 
-Use Cloud9 environment
+- [x] Use Cloud9 environment
 
-Download the new car code
+- [x] Download the new car code
 
-Publish a new state of light on or off
+- [x] Publish a new state of light on or off
 
-Stop the car engine and change the state
+- [x] Stop the car engine and change the state
 
-Play with device shadow
+- [x] Play with device shadow
+
+## Excersice 2.3
+
+Important links
+
+- [1](https://s3.amazonaws.com/aws-iot-device-sdk-python-docs/html/index.html)
+
+- [2](https://github.com/aws/aws-iot-device-sdk-python)

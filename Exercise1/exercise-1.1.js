@@ -36,7 +36,7 @@ const device = awsIoT.device({
       host: endpointFile.endpointAddress
 });
 
-// Function that gets executed when the connection to IoT is established
+// Main like Function that gets executed when the connection to IoT is established
 device.on('connect', function() {
     console.log('Connected to AWS IoT');
     
